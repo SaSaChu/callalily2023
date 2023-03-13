@@ -5,6 +5,9 @@ $maincolor: #252A52;
 $seccolor: #afabd5;
 $pinkcolor: #c50080;
 $tarocolor:#505474; // 芋頭色
+$greencolor:#5cb431;
+$orangecolor:#f29700;
+$bluecolor:#00a0e8;
 
 * {
   &, &:after, &:before {
@@ -78,7 +81,20 @@ button {
   background-color: $maincolor;
 }
 
+.text-green {color: $greencolor;}
+.text-pink {color: $pinkcolor;}
+.text-yellow {color: #ffff04;}
+.text-Dorange {color: $orangecolor;}
+.text-orange {color: #f6c142;}
+.text-red {color: #b02318;}
+.text-Lblue {color: #608ecf;}
+.text-Pred {color: #ef807d;}
+.text-Redpink {color: #eb84b4;}
+.text-brown {color: #5c2925;}
+.text-Lpink {color: #f2a7c5;}
+
 .bg-yellow {background-color: #ffff04;}
+.bg-Dorange {background-color: $orangecolor;}
 .bg-orange {background-color: #f6c142;}
 .bg-red {background-color: #b02318;}
 .bg-Lblue {background-color: #608ecf;}
@@ -138,6 +154,21 @@ button {
 
 .offcanvas-end {
   width: 300px !important;
+}
+
+.card {
+  border: 0 !important;
+  @include border-radius(10px !important);
+}
+
+.card-header:first-child {
+  border: 0 !important;
+  -webkit-border-top-left-radius: 10px !important;
+  -webkit-border-top-right-radius: 10px !important;
+  -moz-border-radius-topleft: 10px !important;
+  -moz-border-radius-topright: 10px !important;
+  border-top-left-radius: 10px !important;
+  border-top-right-radius: 10px !important;
 }
 
 
@@ -210,6 +241,7 @@ nav {
 
   @include range-width(0, 450px) {
     padding: 20px 10px;
+    @include border-radius(15px);
   }
 }
 
@@ -236,12 +268,12 @@ nav {
   background-image: url(../images/moon.png);
   background-size: initial;
   background-repeat: no-repeat;
-  background-position: top 5% left;
+  background-position: top 72px left;
   padding: 0 !important;
 
   @include range-width(0, 450px) {
     background-size: 55%;
-    background-position: top 1% left -25%;
+    background-position: top 34px left -25%;
   }
 }
 
@@ -257,15 +289,12 @@ nav {
 }
 
 
+
 // 標題＋文字
 .fs5-mobile {
   @include range-width(0, 450px) {
     font-size: 1rem !important;
   }
-}
-
-.text-pink {
-  color: $pinkcolor;
 }
 
 .flower-name {
@@ -278,6 +307,10 @@ nav {
     &:before {background-color: $pinkcolor;}
   }
 
+  &.before-yellow {
+    &:before {background-color: #fefe02;}
+  }
+
   &:before {
     display: inline-block;
     vertical-align: top !important;
@@ -285,6 +318,27 @@ nav {
     width: 5px;
     height: 35px;
     margin-right: 10px;
+  }
+}
+
+.link-traffic { 
+  padding: 5px 10px;
+  color: #fff;
+  text-align: center;
+
+  @include range-width(0, 450px) {
+    display: inline-block;
+    width: 100%;
+  }
+
+  &:hover, &:active {
+    color: $bluecolor;
+  }
+
+  &.traffic-ac {
+    color: #fff;
+    @include border-radius(20px);
+    background-color: $bluecolor;
   }
 }
 

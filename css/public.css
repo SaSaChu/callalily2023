@@ -3025,7 +3025,31 @@ button { outline: 0; border-width: 0; }
 
 .bg-main { background-color: #252A52; }
 
+.text-green { color: #5cb431; }
+
+.text-pink { color: #c50080; }
+
+.text-yellow { color: #ffff04; }
+
+.text-Dorange { color: #f29700; }
+
+.text-orange { color: #f6c142; }
+
+.text-red { color: #b02318; }
+
+.text-Lblue { color: #608ecf; }
+
+.text-Pred { color: #ef807d; }
+
+.text-Redpink { color: #eb84b4; }
+
+.text-brown { color: #5c2925; }
+
+.text-Lpink { color: #f2a7c5; }
+
 .bg-yellow { background-color: #ffff04; }
+
+.bg-Dorange { background-color: #f29700; }
 
 .bg-orange { background-color: #f6c142; }
 
@@ -3058,6 +3082,10 @@ button { outline: 0; border-width: 0; }
 
 .offcanvas-end { width: 300px !important; }
 
+.card { border: 0 !important; border-radius: 10px !important; }
+
+.card-header:first-child { border: 0 !important; -webkit-border-top-left-radius: 10px !important; -webkit-border-top-right-radius: 10px !important; -moz-border-radius-topleft: 10px !important; -moz-border-radius-topright: 10px !important; border-top-left-radius: 10px !important; border-top-right-radius: 10px !important; }
+
 header { display: inline-block; width: 100%; }
 header.page-header { height: 120px; }
 @media screen and (max-width: 449px) and (min-width: 0) { header.page-header { height: 70px; } }
@@ -3075,15 +3103,15 @@ nav { display: inline-block; width: 100%; }
 .dotted-bg { display: inline-block; height: 2px; background-image: url(../images/w-border.svg); background-size: contain; background-repeat: repeat-x; background-position: center; }
 
 .centbox { display: inline-block; width: 100%; border-radius: 30px; background-color: #505474; padding: 35px 20px; }
-@media screen and (max-width: 449px) and (min-width: 0) { .centbox { padding: 20px 10px; } }
+@media screen and (max-width: 449px) and (min-width: 0) { .centbox { padding: 20px 10px; border-radius: 15px; } }
 
 .pagecent { margin: 0 auto; max-width: 1000px; width: 100%; }
 
 .menu-mobile { display: inline-block; width: 100%; font-size: 1.4rem; color: #252A52; padding: 10px 0; border-bottom: 1px solid  #3f3f3f; }
 .menu-mobile:hover, .menu-mobile:active { color: #c50080; }
 
-.moon { background-image: url(../images/moon.png); background-size: initial; background-repeat: no-repeat; background-position: top 5% left; padding: 0 !important; }
-@media screen and (max-width: 449px) and (min-width: 0) { .moon { background-size: 55%; background-position: top 1% left -25%; } }
+.moon { background-image: url(../images/moon.png); background-size: initial; background-repeat: no-repeat; background-position: top 72px left; padding: 0 !important; }
+@media screen and (max-width: 449px) and (min-width: 0) { .moon { background-size: 55%; background-position: top 34px left -25%; } }
 
 .singleFlowerBoxs { display: inline-block; width: 100%; border-radius: 10px; overflow: hidden; }
 
@@ -3091,11 +3119,15 @@ nav { display: inline-block; width: 100%; }
 
 @media screen and (max-width: 449px) and (min-width: 0) { .fs5-mobile { font-size: 1rem !important; } }
 
-.text-pink { color: #c50080; }
-
 .flower-name { display: inline-block; width: 100%; font-size: 2rem; color: white; }
 .flower-name.before-pink:before { background-color: #c50080; }
+.flower-name.before-yellow:before { background-color: #fefe02; }
 .flower-name:before { display: inline-block; vertical-align: top !important; content: ''; width: 5px; height: 35px; margin-right: 10px; }
+
+.link-traffic { padding: 5px 10px; color: #fff; text-align: center; }
+@media screen and (max-width: 449px) and (min-width: 0) { .link-traffic { display: inline-block; width: 100%; } }
+.link-traffic:hover, .link-traffic:active { color: #00a0e8; }
+.link-traffic.traffic-ac { color: #fff; border-radius: 20px; background-color: #00a0e8; }
 
 .pt-15 { padding-top: 15%; }
 @media screen and (max-width: 449px) and (min-width: 0) { .pt-15 { padding-top: 0; } }
