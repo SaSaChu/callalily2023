@@ -21,121 +21,414 @@
 
   </head>
 
-  <body class="moon">
-    <header>
-      <div class="container">
-        <div class="row mob-close">
-          <div class="d-flex align-items-center">
-            <div class="flex-grow-1">
-              <a href="index.html"><img src="images/logo.svg" class="img-fluid" alt="2023桃園彩色海芋季"></a>
-            </div>
+  <body>
+    <div class="container moon">
+      <header class="page-header">
+        <div class="container">
+          <div class="row mob-close">
+            <div class="d-flex align-items-center">
+              <div class="flex-grow-1">
+                <a href="index.html"><img src="images/logo.svg" class="img-fluid" alt="2023桃園彩色海芋季"></a>
+              </div>
 
-            <div class="pe-5 text-white align-items-center">
-              <a href="index.html" class="header-link fs-5"><img src="images/icon-home.svg" class="pe-3">回首頁</a>
-            </div>
-            <div class="text-white align-items-center">
-              <a href="https://www.facebook.com/DAYUANFLOWER/?locale=zh_TW" class="header-link fs-5" target="_blank"><img src="images/icon-fb.svg" class="pe-3">桃園彩色海芋季</a>
+              <div class="pe-5 text-white align-items-center">
+                <a href="index.html" class="header-link fs-5"><img src="images/icon-home.svg" class="pe-3">回首頁</a>
+              </div>
+              <div class="text-white align-items-center">
+                <a href="https://www.facebook.com/DAYUANFLOWER/?locale=zh_TW" class="header-link fs-5" target="_blank"><img src="images/icon-fb.svg" class="pe-3">桃園彩色海芋季</a>
+              </div>
             </div>
           </div>
         </div>
-      </div>
 
-      <!-- mobile menu -->
-      <div class="container  bg-taro">
-        <div class="row mob-open pb-2 pt-3">
-          <div class="d-flex justify-content-between align-items-center">
-            <div class="col-7">
-              <a href="index.html"><img src="images/logo.svg" class="img-fluid" alt="2023桃園彩色海芋季"></a>
-            </div>
-            <div class="col-1">
-                <a data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
-                  <img src="images/icon-menu.svg">
-                </a>
+        <!-- mobile menu -->
+        <div class="container  bg-taro">
+          <div class="row mob-open pb-2 pt-3">
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="col-7">
+                <a href="index.html"><img src="images/logo.svg" class="img-fluid" alt="2023桃園彩色海芋季"></a>
+              </div>
+              <div class="col-1">
+                  <a data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                    <img src="images/icon-menu.svg">
+                  </a>
 
-                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-                  <div class="offcanvas-header bg-main">
-                    <a href="index.html"><h5 id="offcanvasRightLabel"><img src="images/logo.svg" class="w-75"></h5></a>
-                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                    <div class="offcanvas-header bg-main">
+                      <a href="index.html"><h5 id="offcanvasRightLabel"><img src="images/logo.svg" class="w-75"></h5></a>
+                      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                      <a class='menu-mobile' href="activity.html">活動地圖</a>
+                      <a class='menu-mobile' href="flower.html">花區介紹</a>
+                      <a class='menu-mobile' href="event.html">活動介紹</a>
+                      <a class='menu-mobile' href="art.html">裝置藝術介紹</a>
+                      <a class='menu-mobile' href="diy.html">DIY體驗課程</a>
+                      <a class='menu-mobile' href="traffic.html">交通專區</a>
+                      <a class='menu-mobile' href="farm.html">農場連結</a>
+                      <a class='menu-mobile' href="https://www.facebook.com/DAYUANFLOWER/?locale=zh_TW" target="_blank"><img src="images/icon-fb-blue.png" class="pe-3">桃園彩色海芋季</a>
+                    </div>
                   </div>
-                  <div class="offcanvas-body">
-                    <a class='menu-mobile' href="activity.html">活動地圖</a>
-                    <a class='menu-mobile' href="flower.html">花區介紹</a>
-                    <a class='menu-mobile' href="event.html">活動介紹</a>
-                    <a class='menu-mobile' href="art.html">裝置藝術介紹</a>
-                    <a class='menu-mobile' href="diy.html">DIY體驗課程</a>
-                    <a class='menu-mobile' href="traffic.html">交通專區</a>
-                    <a class='menu-mobile' href="farm.html">農場連結</a>
-                    <a class='menu-mobile' href="https://www.facebook.com/DAYUANFLOWER/?locale=zh_TW" target="_blank"><img src="images/icon-fb-blue.png" class="pe-3">桃園彩色海芋季</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </header>
+
+      <!-- menu -->
+      <nav class="mob-close">
+        <div class="container">
+          <ul class="nav justify-content-center nav-pills nav-fill">
+
+            <li class="nav-item">
+              <a class="nav-link" href="activity.html">活動地圖</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="flower.html">花區介紹</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="event.html">活動介紹</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="art.html">裝置藝術介紹</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="diy.html">DIY體驗課程</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="traffic.html">交通專區</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="farm.html">農場連結</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- cent -->
+      <div class="pagecent">
+        <div class="container mt-md-5 mt-0">
+          <!-- title -->
+          <div class="row">
+            <div class="d-flex align-items-center">
+              <div class="display-5 fw-bold text-pink px-md-5 px-2">花區介紹</div>
+              <div class="flex-grow-1 align-self-center"><img src="images/flower-girl-01.png" class="float-end"></div>
+            </div>
+          </div>
+
+          <!-- 內文 -->
+          <div class="row">
+            <div class="col-12 pb-3"><img src="images/flower/bigmap.jpg" class="img-thumbnail img-fluid" alt=""></div>
+            <!-- 01 彩芋 -->
+            <div class="col-12 pt-5">
+              <div class="row">
+                <div class="col-md-6 col-12">
+                  <p class="flower-name before-pink">彩芋種植區域</p>
+                  <p class="fs-5 text-white">
+                    海芋為天南星科、馬蹄蓮屬的植物，有分為水生與旱生型，其中彩色海芋便是旱生型海芋，喜好18-25 ℃冷涼氣候與排水良好之土壤環境；色彩艷麗的各式彩芋品系是由專家培育出來的成果，優雅的杯狀花朵十分受切花市場歡迎。
+                    </br></br>
+                    ＊海芋含有植物鹼，具弱毒性，請勿摘採或食用喔！
+                  </p>
+                </div>
+                <div class="col-md-6 col-12"><img src="images/flower/flower01.png" class="img-fluid" alt=""></div>
+
+                <div class="col-12 mt-5">
+                  <div class="row gy-3">
+                    <div class="col-md-2 col-6">
+                      <div class="d-flex flex-column align-items-center singleFlowerBoxs bg-yellow">
+                        <p class="text-black fs-5 text-center my-2">早晨陽光</p>
+                        <img src="images/flower/150.jpg" class="img-fluid" alt="">
+                      </div>
+                    </div>
+                    <div class="col-md-2 col-6">
+                      <div class="d-flex flex-column align-items-center singleFlowerBoxs bg-yellow">
+                        <p class="text-black fs-5 text-center my-2">蒙地卡羅</p>
+                        <img src="images/flower/150.jpg" class="img-fluid" alt="">
+                      </div>
+                    </div>
+                    <div class="col-md-2 col-6">
+                      <div class="d-flex flex-column align-items-center singleFlowerBoxs bg-orange">
+                        <p class="text-black fs-5 text-center my-2">碧翠絲</p>
+                        <img src="images/flower/150.jpg" class="img-fluid" alt="">
+                      </div>
+                    </div>
+                    <div class="col-md-2 col-6">
+                      <div class="d-flex flex-column align-items-center singleFlowerBoxs bg-orange">
+                        <p class="text-black fs-5 text-center my-2">碧翠絲</p>
+                        <img src="images/flower/150.jpg" class="img-fluid" alt="">
+                      </div>
+                    </div>
+                    <div class="col-md-2 col-6">
+                      <div class="d-flex flex-column align-items-center singleFlowerBoxs bg-red">
+                        <p class="text-white fs-5 text-center my-2">血腥瑪麗</p>
+                        <img src="images/flower/150.jpg" class="img-fluid" alt="">
+                      </div>
+                    </div>
+                    <div class="col-md-2 col-6">
+                      <div class="d-flex flex-column align-items-center singleFlowerBoxs bg-red">
+                        <p class="text-white fs-5 text-center my-2">謝爾比</p>
+                        <img src="images/flower/150.jpg" class="img-fluid" alt="">
+                      </div>
+                    </div>
+
+                    <div class="col-md-2 col-6">
+                      <div class="d-flex flex-column align-items-center singleFlowerBoxs bg-red">
+                        <p class="text-white fs-5 text-center my-2">蘇門達臘</p>
+                        <img src="images/flower/150.jpg" class="img-fluid" alt="">
+                      </div>
+                    </div>
+                    <div class="col-md-2 col-6">
+                      <div class="d-flex flex-column align-items-center singleFlowerBoxs bg-Lblue">
+                        <p class="text-black fs-5 text-center my-2">噴槍</p>
+                        <img src="images/flower/150.jpg" class="img-fluid" alt="">
+                      </div>
+                    </div>
+                    <div class="col-md-2 col-6">
+                      <div class="d-flex flex-column align-items-center singleFlowerBoxs bg-Pred">
+                        <p class="text-black fs-5 text-center my-2">隊長</p>
+                        <img src="images/flower/150.jpg" class="img-fluid" alt="">
+                      </div>
+                    </div>
+                    <div class="col-md-2 col-6">
+                      <div class="d-flex flex-column align-items-center singleFlowerBoxs bg-Redpink">
+                        <p class="text-black fs-5 text-center my-2">幻想曲</p>
+                        <img src="images/flower/150.jpg" class="img-fluid" alt="">
+                      </div>
+                    </div>
+                    <div class="col-md-2 col-6">
+                      <div class="d-flex flex-column align-items-center singleFlowerBoxs bg-brown">
+                        <p class="text-white fs-5 text-center my-2">奧德薩</p>
+                        <img src="images/flower/150.jpg" class="img-fluid" alt="">
+                      </div>
+                    </div>
+                    <div class="col-md-2 col-6">
+                      <div class="d-flex flex-column align-items-center singleFlowerBoxs bg-Lpink">
+                        <p class="text-black fs-5 text-center my-2">馬尼拉</p>
+                        <img src="images/flower/150.jpg" class="img-fluid" alt="">
+                      </div>
+                    </div>
                   </div>
                 </div>
+              </div>
             </div>
+            <div class="col-12 py-5"><img src="images/doot1000.svg" class="img-fluid"></div>
+
+            <!-- 02 百合 -->
+            <div class="col-12">
+              <div class="row">
+                <div class="col-md-6 col-12">
+                  <p class="flower-name before-pink">百合種植區域</p>
+                  <p class="fs-5 text-white">
+                    百合是多年生的草本球根植物，為百合目、百合科的一屬，喜好15-20℃冷涼氣候， 適合疏鬆、排水良好之土壤；高潔風雅的花形也十分受到市場喜愛，近年來更有許多過培育的新種百合。
+                  </p>
+                </div>
+                <div class="col-md-6 col-12"><img src="images/flower/flower01.png" class="img-fluid" alt=""></div>
+
+                <div class="col-12 mt-5">
+                  <div class="row gy-3">
+                    <div class="col-md-6 col-12">
+                      <div class="d-flex flex-column align-items-center singleFlowerBoxs bg-yellow">
+                        <p class="text-black fs-4 text-center my-2">La型百合</p>
+                        <div class="w-100 bg-white p-4">
+                          <div class="row gy-3">
+                            <div class="col"><p class="mb-0 py-2 fs-5 text-center bg-Lpink">布林迪西</p></div>
+                            <div class="col"><p class="mb-0 py-2 fs-5 text-center bg-yellow">誠懇</p></div>
+                            <div class="col"><p class="mb-0 py-2 fs-5 text-center bg-orange">黃鑽石</p></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-12">
+                      <div class="d-flex flex-column align-items-center singleFlowerBoxs bg-Redpink">
+                        <p class="text-black fs-4 text-center my-2">香水百合</p>
+                        <div class="w-100 bg-white p-4">
+                          <div class="row gy-3">
+                            <div class="col"><p class="mb-0 py-2 fs-5 text-center bg-yellow">康卡多</p></div>
+                            <div class="col"><p class="mb-0 py-2 fs-5 text-center bg-Lpink">節奏舞者</p></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 py-5"><img src="images/doot1000.svg" class="img-fluid"></div>
+
+            <!-- 03 彩芋舊種 -->
+            <div class="col-12">
+              <div class="row">
+                <div class="col-md-6 col-12">
+                  <p class="flower-name before-pink">彩芋舊種種植區域</p>
+                  <p class="fs-5 text-white">
+                    現行台灣大多的海芋種植，仍然倚靠著進口的種苗。</br>
+                    持續嘗試復育彩芋舊種，就有機會培育出屬於台灣在地的海芋。</br>
+                    有趣的是，海芋是一種隨興也任性的花兒，復育成功的舊種總是有幾朵突然的返祖，變了長相。成了個活脫脫的--驚喜包。</br>
+                  </p>
+                </div>
+                <div class="col-md-6 col-12"><img src="images/flower/flower01.png" class="img-fluid" alt=""></div>
+
+                <!-- <div class="col-12 mt-5">
+                  <div class="row gy-3">
+                    <div class="col-md-6 col-12">
+                      <div class="d-flex flex-column align-items-center singleFlowerBoxs bg-yellow">
+                        <p class="text-black fs-4 text-center my-2">La型百合</p>
+                        <div class="w-100 bg-white p-4">
+                          <div class="row gy-3">
+                            <div class="col"><p class="mb-0 py-2 fs-5 text-center bg-Lpink">布林迪西</p></div>
+                            <div class="col"><p class="mb-0 py-2 fs-5 text-center bg-yellow">誠懇</p></div>
+                            <div class="col"><p class="mb-0 py-2 fs-5 text-center bg-orange">黃鑽石</p></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-12">
+                      <div class="d-flex flex-column align-items-center singleFlowerBoxs bg-Redpink">
+                        <p class="text-black fs-4 text-center my-2">香水百合</p>
+                        <div class="w-100 bg-white p-4">
+                          <div class="row gy-3">
+                            <div class="col"><p class="mb-0 py-2 fs-5 text-center bg-yellow">康卡多</p></div>
+                            <div class="col"><p class="mb-0 py-2 fs-5 text-center bg-Lpink">節奏舞者</p></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div> -->
+              </div>
+            </div>
+            <div class="col-12 py-5"><img src="images/doot1000.svg" class="img-fluid"></div>
+
+            <!-- 04 波斯菊 -->
+            <div class="col-12">
+              <div class="row">
+                <div class="col-md-6 col-12">
+                  <p class="flower-name before-pink">波斯菊撒播區域</p>
+                  <p class="fs-5 text-white">
+                    波斯菊，是菊科秋英屬的一年生草本植物，喜好20-24 ℃偏涼氣候，耐旱力強又好群生，適合大面積灑播種植，形成背景花海美景。
+                  </p>
+                </div>
+                <div class="col-md-6 col-12"><img src="images/flower/flower01.png" class="img-fluid" alt=""></div>
+
+                <!-- <div class="col-12 mt-5">
+                  <div class="row gy-3">
+                    <div class="col-md-6 col-12">
+                      <div class="d-flex flex-column align-items-center singleFlowerBoxs bg-yellow">
+                        <p class="text-black fs-4 text-center my-2">La型百合</p>
+                        <div class="w-100 bg-white p-4">
+                          <div class="row gy-3">
+                            <div class="col"><p class="mb-0 py-2 fs-5 text-center bg-Lpink">布林迪西</p></div>
+                            <div class="col"><p class="mb-0 py-2 fs-5 text-center bg-yellow">誠懇</p></div>
+                            <div class="col"><p class="mb-0 py-2 fs-5 text-center bg-orange">黃鑽石</p></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-12">
+                      <div class="d-flex flex-column align-items-center singleFlowerBoxs bg-Redpink">
+                        <p class="text-black fs-4 text-center my-2">香水百合</p>
+                        <div class="w-100 bg-white p-4">
+                          <div class="row gy-3">
+                            <div class="col"><p class="mb-0 py-2 fs-5 text-center bg-yellow">康卡多</p></div>
+                            <div class="col"><p class="mb-0 py-2 fs-5 text-center bg-Lpink">節奏舞者</p></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div> -->
+              </div>
+            </div>
+            <div class="col-12 py-5"><img src="images/doot1000.svg" class="img-fluid"></div>
+
+            <!-- 05 蕎麥 -->
+            <div class="col-12">
+              <div class="row">
+                <div class="col-md-6 col-12">
+                  <p class="flower-name before-pink">蕎麥撒播區域</p>
+                  <p class="fs-5 text-white">
+                    蕎麥（甜蕎）為大園區的特產，除需要排水良好土壤外，對環境適應力很強；蕎麥花分為粉色、白色兩種，種子具有食用性，可發展各式蕎麥食品，如大園地方開發的蕎麥麵粉、蕎麥麵、蕎麥餅乾等。
+                  </p>
+                </div>
+                <div class="col-md-6 col-12"><img src="images/flower/flower01.png" class="img-fluid" alt=""></div>
+
+                <!-- <div class="col-12 mt-5">
+                  <div class="row gy-3">
+                    <div class="col-md-6 col-12">
+                      <div class="d-flex flex-column align-items-center singleFlowerBoxs bg-yellow">
+                        <p class="text-black fs-4 text-center my-2">La型百合</p>
+                        <div class="w-100 bg-white p-4">
+                          <div class="row gy-3">
+                            <div class="col"><p class="mb-0 py-2 fs-5 text-center bg-Lpink">布林迪西</p></div>
+                            <div class="col"><p class="mb-0 py-2 fs-5 text-center bg-yellow">誠懇</p></div>
+                            <div class="col"><p class="mb-0 py-2 fs-5 text-center bg-orange">黃鑽石</p></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-12">
+                      <div class="d-flex flex-column align-items-center singleFlowerBoxs bg-Redpink">
+                        <p class="text-black fs-4 text-center my-2">香水百合</p>
+                        <div class="w-100 bg-white p-4">
+                          <div class="row gy-3">
+                            <div class="col"><p class="mb-0 py-2 fs-5 text-center bg-yellow">康卡多</p></div>
+                            <div class="col"><p class="mb-0 py-2 fs-5 text-center bg-Lpink">節奏舞者</p></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div> -->
+              </div>
+            </div>
+            <div class="col-12 py-5"><img src="images/doot1000.svg" class="img-fluid"></div>
+
+            <!-- 06 3吋盆草花 -->
+            <div class="col-12">
+              <div class="row">
+                <div class="col-md-6 col-12">
+                  <p class="flower-name before-pink">3吋盆草花區域</p>
+                  <p class="fs-5 text-white">
+                    展區內種植了各式草花，如孔雀草、海棠、萬壽菊、一串白、銀葉菊等，皆來自有著草花王國美稱的桃園-溪海在地；各式草花的花形各異，也為展區增加了視覺層次與美感。
+                  </p>
+                </div>
+                <div class="col-md-6 col-12"><img src="images/flower/flower01.png" class="img-fluid" alt=""></div>
+
+                <!-- <div class="col-12 mt-5">
+                  <div class="row gy-3">
+                    <div class="col-md-6 col-12">
+                      <div class="d-flex flex-column align-items-center singleFlowerBoxs bg-yellow">
+                        <p class="text-black fs-4 text-center my-2">La型百合</p>
+                        <div class="w-100 bg-white p-4">
+                          <div class="row gy-3">
+                            <div class="col"><p class="mb-0 py-2 fs-5 text-center bg-Lpink">布林迪西</p></div>
+                            <div class="col"><p class="mb-0 py-2 fs-5 text-center bg-yellow">誠懇</p></div>
+                            <div class="col"><p class="mb-0 py-2 fs-5 text-center bg-orange">黃鑽石</p></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-12">
+                      <div class="d-flex flex-column align-items-center singleFlowerBoxs bg-Redpink">
+                        <p class="text-black fs-4 text-center my-2">香水百合</p>
+                        <div class="w-100 bg-white p-4">
+                          <div class="row gy-3">
+                            <div class="col"><p class="mb-0 py-2 fs-5 text-center bg-yellow">康卡多</p></div>
+                            <div class="col"><p class="mb-0 py-2 fs-5 text-center bg-Lpink">節奏舞者</p></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div> -->
+              </div>
+            </div>
+            <div class="col-12 py-5"><img src="images/doot1000.svg" class="img-fluid"></div>
           </div>
         </div>
       </div>
-      
-    </header>
-
-    <!-- menu -->
-    <nav class="mob-close">
-      <div class="container">
-        <ul class="nav justify-content-center nav-pills nav-fill">
-
-          <li class="nav-item">
-            <a class="nav-link" href="activity.html">活動地圖</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="flower.html">花區介紹</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="event.html">活動介紹</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="art.html">裝置藝術介紹</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="diy.html">DIY體驗課程</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="traffic.html">交通專區</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="farm.html">農場連結</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-
-    <!-- 活動介紹 -->
-    <div class="container mt-md-5 mt-0">
-      <div class="row">
-        <div class="d-flex">
-          <div class="display-3 fw-bold text-white pe-5">綺。芋</div>
-          <div class="flex-grow-1 align-self-center dotted-bg"></div>
-        </div>
-      </div>
-
-      <div class="row mt-5">
-        <div class="col-md-6 col-12 fs-5 text-white">
-          <p class="pt-15">
-          「綺麗」美好、繽紛、華麗的人生</br>
-            「海芋」海海人生中意想不到的相遇</br>
-            綺芋—在色彩繽紛的亮麗人生中，意想不到的浪漫相遇！</br>
-          </p>
-        </div>
-        <div class="col-md-6 col-12 "><img src="images/title-pic.png" class="img-fluid"></div>
-        <div class="col-12 fs-5 fs5-mobile text-white">
-          2023桃園彩色海芋季以「綺芋」作為主題，以奇遇的諧音結合彩色海芋的花語代表出五種人生重要相遇：</br>
-          白色海芋，花語有雄偉之美、純潔的愛之意，以此花象徵「人生、自己」</br>
-          黃色海芋，花語有志同道合之意，以此花象徵「友情、朋友」</br>
-          紅色海芋，花語有表白之意，以此花象徵「愛情、戀人」</br>
-          紫色海芋，花語有富貴之意，以此花象徵「事業、夥伴」</br>
-          粉色海芋，花語有誠意之意，以此花象徵「親情、家人」</br>
-          徜徉在彩色花海，編織一場人生的夢幻相遇。
-        </div>
-        <div class="col-12 dotted-bg py-5"></div>
-      </div>
     </div>
-
 
     <footer class="mt-5">
       <div class="container">

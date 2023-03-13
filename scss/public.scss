@@ -8,7 +8,7 @@ $tarocolor:#505474; // 芋頭色
 
 * {
   &, &:after, &:before {
-    vertical-align: middle ;
+    vertical-align: middle;
     @include box-sizing(border-box);
     @include font-smoothing(subpixel-antialiased);
   }
@@ -78,6 +78,15 @@ button {
   background-color: $maincolor;
 }
 
+.bg-yellow {background-color: #ffff04;}
+.bg-orange {background-color: #f6c142;}
+.bg-red {background-color: #b02318;}
+.bg-Lblue {background-color: #608ecf;}
+.bg-Pred {background-color: #ef807d;}
+.bg-Redpink {background-color: #eb84b4;}
+.bg-brown {background-color: #5c2925;}
+.bg-Lpink {background-color: #f2a7c5;}
+
 .mob-close {
   @include range-width(0, 450px) {
     display: none;
@@ -138,6 +147,14 @@ header {
   display: inline-block;
   width: 100%;
 
+  &.page-header {
+    height: 120px;
+
+    @include range-width(0, 450px) {
+      height: 70px;
+    }
+  }
+
   .container{
     .row {
       height: 100px;
@@ -196,6 +213,12 @@ nav {
   }
 }
 
+.pagecent {
+  margin: 0 auto;
+  max-width: 1000px;
+  width: 100%;
+}
+
 .menu-mobile {
   display: inline-block;
   width: 100%;
@@ -209,8 +232,29 @@ nav {
   }
 }
 
+.moon {
+  background-image: url(../images/moon.png);
+  background-size: initial;
+  background-repeat: no-repeat;
+  background-position: top 5% left;
+  padding: 0 !important;
 
+  @include range-width(0, 450px) {
+    background-size: 55%;
+    background-position: top 1% left -25%;
+  }
+}
 
+.singleFlowerBoxs {
+  display: inline-block;
+  width: 100%;
+  @include border-radius(10px);
+  overflow: hidden;
+}
+
+.FlowerTypeBox {
+  height: 300px;
+}
 
 
 // 標題＋文字
@@ -219,6 +263,32 @@ nav {
     font-size: 1rem !important;
   }
 }
+
+.text-pink {
+  color: $pinkcolor;
+}
+
+.flower-name {
+  display: inline-block;
+  width: 100%;
+  font-size: 2rem;
+  color: white;
+
+  &.before-pink {
+    &:before {background-color: $pinkcolor;}
+  }
+
+  &:before {
+    display: inline-block;
+    vertical-align: top !important;
+    content: '';
+    width: 5px;
+    height: 35px;
+    margin-right: 10px;
+  }
+}
+
+
 
 // space
 .pt-15 {

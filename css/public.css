@@ -3025,6 +3025,22 @@ button { outline: 0; border-width: 0; }
 
 .bg-main { background-color: #252A52; }
 
+.bg-yellow { background-color: #ffff04; }
+
+.bg-orange { background-color: #f6c142; }
+
+.bg-red { background-color: #b02318; }
+
+.bg-Lblue { background-color: #608ecf; }
+
+.bg-Pred { background-color: #ef807d; }
+
+.bg-Redpink { background-color: #eb84b4; }
+
+.bg-brown { background-color: #5c2925; }
+
+.bg-Lpink { background-color: #f2a7c5; }
+
 @media screen and (max-width: 449px) and (min-width: 0) { .mob-close { display: none; } }
 
 .mob-open { display: none; }
@@ -3043,6 +3059,8 @@ button { outline: 0; border-width: 0; }
 .offcanvas-end { width: 300px !important; }
 
 header { display: inline-block; width: 100%; }
+header.page-header { height: 120px; }
+@media screen and (max-width: 449px) and (min-width: 0) { header.page-header { height: 70px; } }
 header .container .row { height: 100px; }
 @media screen and (max-width: 449px) and (min-width: 0) { header .container .row { height: 70px; } }
 
@@ -3059,10 +3077,25 @@ nav { display: inline-block; width: 100%; }
 .centbox { display: inline-block; width: 100%; border-radius: 30px; background-color: #505474; padding: 35px 20px; }
 @media screen and (max-width: 449px) and (min-width: 0) { .centbox { padding: 20px 10px; } }
 
+.pagecent { margin: 0 auto; max-width: 1000px; width: 100%; }
+
 .menu-mobile { display: inline-block; width: 100%; font-size: 1.4rem; color: #252A52; padding: 10px 0; border-bottom: 1px solid  #3f3f3f; }
 .menu-mobile:hover, .menu-mobile:active { color: #c50080; }
 
+.moon { background-image: url(../images/moon.png); background-size: initial; background-repeat: no-repeat; background-position: top 5% left; padding: 0 !important; }
+@media screen and (max-width: 449px) and (min-width: 0) { .moon { background-size: 55%; background-position: top 1% left -25%; } }
+
+.singleFlowerBoxs { display: inline-block; width: 100%; border-radius: 10px; overflow: hidden; }
+
+.FlowerTypeBox { height: 300px; }
+
 @media screen and (max-width: 449px) and (min-width: 0) { .fs5-mobile { font-size: 1rem !important; } }
+
+.text-pink { color: #c50080; }
+
+.flower-name { display: inline-block; width: 100%; font-size: 2rem; color: white; }
+.flower-name.before-pink:before { background-color: #c50080; }
+.flower-name:before { display: inline-block; vertical-align: top !important; content: ''; width: 5px; height: 35px; margin-right: 10px; }
 
 .pt-15 { padding-top: 15%; }
 @media screen and (max-width: 449px) and (min-width: 0) { .pt-15 { padding-top: 0; } }
