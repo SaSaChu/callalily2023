@@ -81,6 +81,7 @@ button {
   background-color: $maincolor;
 }
 
+.text-main {color: $maincolor;}
 .text-green {color: $greencolor;}
 .text-pink {color: $pinkcolor;}
 .text-yellow {color: #ffff04;}
@@ -171,6 +172,23 @@ button {
   border-top-right-radius: 10px !important;
 }
 
+.accordion-item {
+  background-color: transparent !important;
+  border: 0 !important;
+  margin-bottom: 20px;
+}
+
+.accordion-button {
+  @include border-radius(20px !important);
+  font-size: 1.3rem !important;
+  background-color: #afabd5 !important;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: $greencolor !important;
+  color: white !important;
+}
+
 
 
 // 內容
@@ -238,6 +256,15 @@ nav {
   @include border-radius(30px);
   background-color: $tarocolor;
   padding: 35px 20px;
+
+  &.artbox {
+    padding: 35px;
+
+    @include range-width(0, 450px) {
+      padding: 20px 15px;
+      @include border-radius(15px);
+    }
+  }
 
   @include range-width(0, 450px) {
     padding: 20px 10px;
@@ -339,6 +366,27 @@ nav {
     color: #fff;
     @include border-radius(20px);
     background-color: $bluecolor;
+  }
+}
+
+.link-farm { 
+  padding: 5px 10px;
+  color: #fff;
+  text-align: center;
+
+  @include range-width(0, 450px) {
+    display: inline-block;
+    width: 100%;
+  }
+
+  &:hover, &:active {
+    color: $greencolor;
+  }
+
+  &.farm-ac {
+    color: #fff;
+    @include border-radius(20px);
+    background-color: $greencolor;
   }
 }
 

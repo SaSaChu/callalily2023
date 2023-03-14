@@ -3025,6 +3025,8 @@ button { outline: 0; border-width: 0; }
 
 .bg-main { background-color: #252A52; }
 
+.text-main { color: #252A52; }
+
 .text-green { color: #5cb431; }
 
 .text-pink { color: #c50080; }
@@ -3086,6 +3088,12 @@ button { outline: 0; border-width: 0; }
 
 .card-header:first-child { border: 0 !important; -webkit-border-top-left-radius: 10px !important; -webkit-border-top-right-radius: 10px !important; -moz-border-radius-topleft: 10px !important; -moz-border-radius-topright: 10px !important; border-top-left-radius: 10px !important; border-top-right-radius: 10px !important; }
 
+.accordion-item { background-color: transparent !important; border: 0 !important; margin-bottom: 20px; }
+
+.accordion-button { border-radius: 20px !important; font-size: 1.3rem !important; background-color: #afabd5 !important; }
+
+.accordion-button:not(.collapsed) { background-color: #5cb431 !important; color: white !important; }
+
 header { display: inline-block; width: 100%; }
 header.page-header { height: 120px; }
 @media screen and (max-width: 449px) and (min-width: 0) { header.page-header { height: 70px; } }
@@ -3103,6 +3111,8 @@ nav { display: inline-block; width: 100%; }
 .dotted-bg { display: inline-block; height: 2px; background-image: url(../images/w-border.svg); background-size: contain; background-repeat: repeat-x; background-position: center; }
 
 .centbox { display: inline-block; width: 100%; border-radius: 30px; background-color: #505474; padding: 35px 20px; }
+.centbox.artbox { padding: 35px; }
+@media screen and (max-width: 449px) and (min-width: 0) { .centbox.artbox { padding: 20px 15px; border-radius: 15px; } }
 @media screen and (max-width: 449px) and (min-width: 0) { .centbox { padding: 20px 10px; border-radius: 15px; } }
 
 .pagecent { margin: 0 auto; max-width: 1000px; width: 100%; }
@@ -3128,6 +3138,11 @@ nav { display: inline-block; width: 100%; }
 @media screen and (max-width: 449px) and (min-width: 0) { .link-traffic { display: inline-block; width: 100%; } }
 .link-traffic:hover, .link-traffic:active { color: #00a0e8; }
 .link-traffic.traffic-ac { color: #fff; border-radius: 20px; background-color: #00a0e8; }
+
+.link-farm { padding: 5px 10px; color: #fff; text-align: center; }
+@media screen and (max-width: 449px) and (min-width: 0) { .link-farm { display: inline-block; width: 100%; } }
+.link-farm:hover, .link-farm:active { color: #5cb431; }
+.link-farm.farm-ac { color: #fff; border-radius: 20px; background-color: #5cb431; }
 
 .pt-15 { padding-top: 15%; }
 @media screen and (max-width: 449px) and (min-width: 0) { .pt-15 { padding-top: 0; } }
