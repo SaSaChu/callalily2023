@@ -3086,6 +3086,8 @@ button { outline: 0; border-width: 0; }
 
 .card { border: 0 !important; border-radius: 10px !important; }
 
+.card-body.forTable { padding: 1rem 0 !important; }
+
 .card-header:first-child { border: 0 !important; -webkit-border-top-left-radius: 10px !important; -webkit-border-top-right-radius: 10px !important; -moz-border-radius-topleft: 10px !important; -moz-border-radius-topright: 10px !important; border-top-left-radius: 10px !important; border-top-right-radius: 10px !important; }
 
 .accordion-item { background-color: transparent !important; border: 0 !important; margin-bottom: 20px; }
@@ -3093,6 +3095,12 @@ button { outline: 0; border-width: 0; }
 .accordion-button { border-radius: 20px !important; font-size: 1.3rem !important; background-color: #afabd5 !important; }
 
 .accordion-button:not(.collapsed) { background-color: #5cb431 !important; color: white !important; }
+
+.custom-table-width { overflow-x: auto; margin-right: 15px; margin-left: 15px; padding-right: 0; padding-left: 0; }
+.custom-table-width .table { table-layout: fixed; min-width: 850px; }
+.custom-table-width thead th:first-child, .custom-table-width tbody td:first-child { width: 8em; }
+.custom-table-width thead th:nth-child(10), .custom-table-width tbody td:nth-child(10) { width: 5em; }
+.custom-table-width thead th:last-child, .custom-table-width tbody td:last-child { width: 60%; }
 
 header { display: inline-block; width: 100%; }
 header.page-header { height: 120px; }

@@ -162,6 +162,12 @@ button {
   @include border-radius(10px !important);
 }
 
+.card-body {
+  &.forTable {
+    padding: 1rem 0 !important;
+  }
+}
+
 .card-header:first-child {
   border: 0 !important;
   -webkit-border-top-left-radius: 10px !important;
@@ -187,6 +193,39 @@ button {
 .accordion-button:not(.collapsed) {
   background-color: $greencolor !important;
   color: white !important;
+}
+
+$grid-gutter-width: 30px;
+
+.custom-table-width {
+  overflow-x: auto;
+  margin-right: $grid-gutter-width / 2; // 利用 margin 推回去原本 padding 的空間
+  margin-left: $grid-gutter-width / 2;
+  padding-right: 0;
+  padding-left: 0;
+
+  .table {
+    table-layout: fixed; // 表格和欄寬將根據所給定的寬度來顯示（預設等寬）
+    min-width: 850px;   // 避免因寬度不足而字疊在一起
+  }
+
+  // 流水號 #
+  thead th:first-child,
+  tbody td:first-child {
+    width: 8em;
+  }
+
+  // Time
+  thead th:nth-child(10),
+  tbody td:nth-child(10) {
+    width: 5em;
+  }
+
+  // Remark
+  thead th:last-child,
+  tbody td:last-child {
+    width: 60%;
+  }
 }
 
 

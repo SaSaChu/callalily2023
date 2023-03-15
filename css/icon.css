@@ -1,4 +1,4 @@
-@font-face { font-family: "icon"; src: url('../font/icomoon/fonts/icomoon.eot?1670999087') format('embedded-opentype'), url('../font/icomoon/fonts/icomoon.woff?1670999087') format('woff'), url('../font/icomoon/fonts/icomoon.ttf?1670999087') format('truetype'), url('../font/icomoon/fonts/icomoon.svg?1670999087') format('svg'); }
+@font-face { font-family: "icon"; src: url('../font/icomoon/fonts/icomoon.eot?1678860312') format('embedded-opentype'), url('../font/icomoon/fonts/icomoon.woff?1678860312') format('woff'), url('../font/icomoon/fonts/icomoon.ttf?1678860312') format('truetype'), url('../font/icomoon/fonts/icomoon.svg?1678860312') format('svg'); }
 *[class^="icon-"]:before, *[class*=" icon-"]:before { font-family: "icon"; speak: none; font-style: normal; font-weight: normal; font-variant: normal; }
 
 .icon-n-icon01:before { content: "\e906"; }
