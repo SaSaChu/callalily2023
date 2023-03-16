@@ -1,3 +1,4 @@
+@charset "UTF-8";
 *, *:after, *:before { vertical-align: middle; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; -moz-osx-font-smoothing: subpixel-antialiased; -webkit-font-smoothing: subpixel-antialiased; -moz-font-smoothing: subpixel-antialiased; -ms-font-smoothing: subpixel-antialiased; -o-font-smoothing: subpixel-antialiased; }
 
 /*!
@@ -3021,6 +3022,8 @@ button { outline: 0; border-width: 0; }
 .header-link img:hover { color: #c50080; }
 .header-link:hover { color: #c50080; }
 
+.bg-sec { background-color: #afabd5; }
+
 .bg-taro { background-color: #505474; }
 
 .bg-main { background-color: #252A52; }
@@ -3048,6 +3051,10 @@ button { outline: 0; border-width: 0; }
 .text-brown { color: #5c2925; }
 
 .text-Lpink { color: #f2a7c5; }
+
+.bg-pink { background-color: #c50080; }
+
+.bg-grey { background-color: rgba(208, 208, 208, 0.3); }
 
 .bg-yellow { background-color: #ffff04; }
 
@@ -3101,6 +3108,18 @@ button { outline: 0; border-width: 0; }
 .custom-table-width thead th:first-child, .custom-table-width tbody td:first-child { width: 8em; }
 .custom-table-width thead th:nth-child(10), .custom-table-width tbody td:nth-child(10) { width: 5em; }
 .custom-table-width thead th:last-child, .custom-table-width tbody td:last-child { width: 60%; }
+
+.custom-table-width2 { overflow-x: auto; margin-right: 15px; margin-left: 15px; padding-right: 0; padding-left: 0; }
+.custom-table-width2 .table { table-layout: fixed; min-width: ˙850px; }
+.custom-table-width2 thead th:first-child, .custom-table-width2 tbody td:first-child { width: 5em; }
+.custom-table-width2 thead th:nth-child(10), .custom-table-width2 tbody td:nth-child(10) { width: 25em; }
+.custom-table-width2 thead th:last-child, .custom-table-width2 tbody td:last-child { width: 30%; }
+
+.custom-table-width3 { overflow-x: auto; margin-right: 15px; margin-left: 15px; padding-right: 0; padding-left: 0; }
+.custom-table-width3 .table { table-layout: fixed; min-width: ˙750px; }
+.custom-table-width3 thead th:first-child, .custom-table-width3 tbody td:first-child { width: 10em; }
+.custom-table-width3 thead th:nth-child(10), .custom-table-width3 tbody td:nth-child(10) { width: 25em; }
+.custom-table-width3 thead th:last-child, .custom-table-width3 tbody td:last-child { width: 60%; }
 
 header { display: inline-block; width: 100%; }
 header.page-header { height: 120px; }

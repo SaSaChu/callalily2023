@@ -73,6 +73,10 @@ button {
   }
 }
 
+.bg-sec {
+  background-color: $seccolor;
+}
+
 .bg-taro {
   background-color: $tarocolor;
 }
@@ -94,6 +98,8 @@ button {
 .text-brown {color: #5c2925;}
 .text-Lpink {color: #f2a7c5;}
 
+.bg-pink {background-color: $pinkcolor;}
+.bg-grey {background-color: rgba(208, 208, 208, .3);}
 .bg-yellow {background-color: #ffff04;}
 .bg-Dorange {background-color: $orangecolor;}
 .bg-orange {background-color: #f6c142;}
@@ -228,6 +234,67 @@ $grid-gutter-width: 30px;
   }
 }
 
+.custom-table-width2 {
+  overflow-x: auto;
+  margin-right: $grid-gutter-width / 2; // 利用 margin 推回去原本 padding 的空間
+  margin-left: $grid-gutter-width / 2;
+  padding-right: 0;
+  padding-left: 0;
+
+  .table {
+    table-layout: fixed; // 表格和欄寬將根據所給定的寬度來顯示（預設等寬）
+    min-width: ˙850px;   // 避免因寬度不足而字疊在一起
+  }
+
+  // 流水號 #
+  thead th:first-child,
+  tbody td:first-child {
+    width: 5em;
+  }
+
+  // Time
+  thead th:nth-child(10),
+  tbody td:nth-child(10) {
+    width: 25em;
+  }
+
+  // Remark
+  thead th:last-child,
+  tbody td:last-child {
+    width: 30%;
+  }
+}
+
+.custom-table-width3 {
+  overflow-x: auto;
+  margin-right: $grid-gutter-width / 2; // 利用 margin 推回去原本 padding 的空間
+  margin-left: $grid-gutter-width / 2;
+  padding-right: 0;
+  padding-left: 0;
+
+  .table {
+    table-layout: fixed; // 表格和欄寬將根據所給定的寬度來顯示（預設等寬）
+    min-width: ˙750px;   // 避免因寬度不足而字疊在一起
+  }
+
+  // 流水號 #
+  thead th:first-child,
+  tbody td:first-child {
+    width: 10em;
+  }
+
+  // Time
+  thead th:nth-child(10),
+  tbody td:nth-child(10) {
+    width: 25em;
+  }
+
+  // Remark
+  thead th:last-child,
+  tbody td:last-child {
+    width: 60%;
+  }
+}
 
 
 // 內容

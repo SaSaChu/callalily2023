@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta http-equiv="Content-Language" content="zh-tw">
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,minimal-ui">
+
+    <title>綺芋-2023桃園彩色海芋季</title>
+
+    <script language="javascript" type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+    <script language="javascript" type="text/javascript" src="js/public.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/public.css">
+    <link rel="stylesheet" type="text/css" href="css/icon.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;500;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/25b2931f6f.js" crossorigin="anonymous"></script>
+
+  </head>
+
+  <body>
+    <div class="container moon">
+      <header class="page-header">
+        <div class="container">
+          <div class="row mob-close">
+            <div class="d-flex align-items-center">
+              <div class="flex-grow-1">
+                <a href="index.html"><img src="images/logo.svg" class="img-fluid" alt="2023桃園彩色海芋季"></a>
+              </div>
+
+              <div class="pe-5 text-white align-items-center">
+                <a href="index.html" class="header-link fs-5"><img src="images/icon-home.svg" class="pe-3">回首頁</a>
+              </div>
+              <div class="text-white align-items-center">
+                <a href="https://www.facebook.com/DAYUANFLOWER/?locale=zh_TW" class="header-link fs-5" target="_blank"><img src="images/icon-fb.svg" class="pe-3">桃園彩色海芋季</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- mobile menu -->
+        <div class="container  bg-taro">
+          <div class="row mob-open pb-2 pt-3">
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="col-7">
+                <a href="index.html"><img src="images/logo.svg" class="img-fluid" alt="2023桃園彩色海芋季"></a>
+              </div>
+              <div class="col-1">
+                  <a data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                    <img src="images/icon-menu.svg">
+                  </a>
+
+                  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                    <div class="offcanvas-header bg-main">
+                      <a href="index.html"><h5 id="offcanvasRightLabel"><img src="images/logo.svg" class="w-75"></h5></a>
+                      <button type="button" class="btn-close btn-close-white text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                      <a class='menu-mobile' href="activity.html">活動地圖</a>
+                      <a class='menu-mobile' href="flower.html">花區介紹</a>
+                      <a class='menu-mobile' href="event.html">活動介紹</a>
+                      <a class='menu-mobile' href="art.html">裝置藝術介紹</a>
+                      <a class='menu-mobile' href="diy.html">DIY體驗課程</a>
+                      <a class='menu-mobile' href="traffic.html">交通專區</a>
+                      <a class='menu-mobile' href="farm.html">周邊農場資訊</a>
+                      <a class='menu-mobile' href="https://www.facebook.com/DAYUANFLOWER/?locale=zh_TW" target="_blank"><img src="images/icon-fb-blue.png" class="pe-3">桃園彩色海芋季</a>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </header>
+
+      <!-- menu -->
+      <nav class="mob-close">
+        <div class="container">
+          <ul class="nav justify-content-center nav-pills nav-fill">
+
+            <li class="nav-item">
+              <a class="nav-link" href="activity.html">活動地圖</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="flower.html">花區介紹</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="event.html">活動介紹</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="art.html">裝置藝術介紹</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="diy.html">DIY體驗課程</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="traffic.html">交通專區</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="farm.html">周邊農場資訊</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- cent -->
+      <div class="pagecent">
+        <div class="container mt-md-5 mt-0">
+          <!-- title -->
+          <div class="row">
+            <div class="d-flex align-items-center">
+              <div class="display-5 fw-bold text-pink px-md-5 pt-md-0 pt-5 ps-2">周邊農場資訊</div>
+              <div class="flex-grow-1 align-self-center mob-close">
+                <a href="farm01.html" class="link-farm fs-5 float-end farm-ac"><i class="bi bi-link-45deg me-2"></i>農事體驗遊程</a>
+                <a href="farm.html" class="link-farm fs-5 float-end me-3"><i class="bi bi-link-45deg me-2"></i>周邊農場資訊</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 內文 -->
+          <div class="centbox artbox mt-4">
+            <div class="row gy-3">
+              <div class="col-6 mob-open"><a href="farm.html" class="link-farm fs-5"><i class="bi bi-link-45deg me-2"></i>周邊農場資訊</a></div>
+              <div class="col-6 mob-open"><a href="farm01.html" class="link-farm fs-5 farm-ac"><i class="bi bi-link-45deg me-2"></i>農事體驗遊程</a></div>
+            </div>
+            <div class="col-12 my-3 mob-open"><img src="images/doot1000.svg" class="img-fluid"></div>
+
+            <!-- 慢活溪海，農事綺芋 -->
+            <div class="col-12"><p class="flower-name before-yellow">慢活溪海，農事綺芋</p></div>
+            <div class="col-12"><p class="h5 text-white">※全年度遊程，非海芋季限定活動，相關資訊請洽溪海休閒農業區-遊客服務中心</p></div>
+
+            <div class="accordion accordion-flush mt-5" id="accordionPanelsStayOpenExample">
+              <!-- 01 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                   四季農遊 - 從農田到餐桌，瓜風到你家
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseOne" class="accordion-collapse text-white collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                  <div class="accordion-body">                    
+                    <p class="fs-5">
+                      2023種瓜得瓜，來溪海種西瓜-從農田到餐桌，瓜風到你家</br>
+                      一年一度的西瓜節在五月即將來臨拉~ </br>
+                      來溪海就能親手種下專屬你的5顆西瓜，擔心「不會種」、「不會照護」怎麼辦？</br>
+                      別擔心！溪海有專業的農民為您照護、管理，同時您能透過雲端追蹤西瓜寶寶，當西瓜成熟時，您可以親自採下屬於您的西瓜寶寶，誰也別想瓜分你的愛！
+                      </br></br>
+                      溪海西瓜節，給你一個Juicy的夏天
+                      </br></br>
+                      今年溪海西瓜節，你準備好了嗎?</br>
+                      種植日: 種瓜得瓜，來溪海種西瓜</br>
+                      西瓜苗成長：養護期間以網路追蹤,西瓜苗成長</br>
+                      施肥日: 你，滾瓜爛熟了嗎? </br>
+                      西瓜施肥：西瓜結果後,預約回來施肥</br>
+                      收成日: 瓜熟蒂落，滿載而歸</br>
+                      西瓜成熟採收,視西瓜成長時程，採收時間再行通知</br>
+                      帶著美好的心情迎接你細心照顧的西瓜寶寶們吧!</br>
+                    </p>
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                      <div class="col-6 col-md-3">
+                        <div class="card h-100">
+                          <h5 class="card-header bg-Dorange text-white">三大亮點</h5>
+                          <div class="card-body">
+                            <p class="card-text text-main">
+                              1.多元的農夫市集以及豐富的農村美食等你來品嚐！</br>
+                              2.現場購買加倍卷200元含(園遊券200元十贈送超值禮物+一百元的農場抵用券）價值400元</br>
+                              3.來溪海就能自己種下專屬你的5顆西瓜!!
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-6 col-md-3">
+                        <div class="card h-100">
+                          <h5 class="card-header bg-Dorange text-white">活動地點</h5>
+                          <div class="card-body">
+                            <p class="card-text text-main fs-4 mb-2">
+                              溪海休閒農業區：
+                            </p>
+                            <p class="card-text text-main">
+                              桃園市大園區溪海里聖德北路828號
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-6 col-md-3">
+                        <div class="card h-100">
+                          <h5 class="card-header bg-Dorange text-white">活動流程</h5>
+                          <div class="card-body">
+                           <p class="card-text text-main">
+                              西瓜小知識介紹 → 種植一組（5株苗）→ 農夫大哥全程回答您問題 → 逛特色農夫市集 → 體驗農事DIY活動 → 快樂返家
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-6 col-md-3">
+                        <div class="card h-100">
+                          <h5 class="card-header bg-Dorange text-white">活動人數</h5>
+                          <div class="card-body">
+                           <p class="card-text text-main">
+                              1.每人限報名一組（每個姓名只能報一組，如果要報二組就是二個名字以此類推）；一組限最多五人(含大人.小孩)。</br>
+                              2.收成時限報名者本人採收
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-12">
+                        <div class="card">
+                          <h5 class="card-header bg-secondary text-white">注意事項</h5>
+                          <div class="card-body">
+                            <p class="card-text text-main">
+                              預計採收期7月中下旬到8月初,視西瓜成長情況，正式採收日於網路公告
+                              農作物靠天吃飯，不能保證收成,如遇天災損失無收成，主辦單位另行活動贈品補償。</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 02 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                    四季農遊 - 溪海蘿蔔節暨農夫市集
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse text-white collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                  <div class="accordion-body">
+                    <p class="fs-5">
+                      來摟！來摟！溪海蘿蔔節跟著冬天來拉~</br>
+                      豐富多元的農村活動等你來體驗！</br>
+                      現場有農夫市集及豐富的農村美食等你來品嚐!</br>
+                    </p>
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                      <div class="col">
+                        <div class="card h-100">
+                          <h5 class="card-header bg-Dorange text-white">好彩頭饗宴</h5>
+                          <div class="card-body">
+                            <p class="card-text text-main">
+                              蘿蔔滿漢大餐!!</br>餐點選用溪海在地當季食材所製成，支持我們溪海在地小農發展，也減少碳足跡，節能減碳!!
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col">
+                        <div class="card h-100">
+                          <h5 class="card-header bg-Dorange text-white">誰是蘿蔔小農夫!?</h5>
+                          <div class="card-body">
+                           <p class="card-text text-main">
+                              來場拔蘿蔔比賽吧!</br>來溪海體驗蘿蔔採收的成就感，一人可拔3斤蘿蔔回家呦!</br>
+                              <em>*多一斤 30元/斤</em>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col">
+                        <div class="card h-100">
+                          <h5 class="card-header bg-Dorange text-white">我是蘿蔔料理王</h5>
+                          <div class="card-body">
+                           <p class="card-text text-main">
+                              自己動手DIY做出好吃的醃蘿蔔吧，酸酸甜甜好開胃又解膩!!
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 半日遊 -->
+            <div class="col-12 mt-5"><p class="flower-name before-yellow">半日遊</p></div>
+            <div class="accordion accordion-flush mt-3" id="accordionPanelsStayOpenExample">
+              <!-- 03 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="true" aria-controls="panelsStayOpen-collapseThree">
+                   半日遊 - 來林園居窯烤吧！焢窯-“傳承”最佳活動
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseThree" class="accordion-collapse text-white collapse show" aria-labelledby="panelsStayOpen-headingThree">
+                  <div class="accordion-body">                    
+                    <p class="fs-5">
+                      享受著田園好時光，來林園居農場挖地瓜吧！</br>
+                      有吃有玩還能把知識帶回家！！這麼好康的事情分享給有緣的你，快揪團來玩吧！
+                      </br></br>
+                      帶著你的熱情與永不放棄的心來遊玩！！</br>〃凡報名活動，皆贈送〃！！《與羊咩咩同樂》《Poli遊園車騎到飽》
+                    </p>
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col-6 col-md-3">
+                        <div class="card h-100">
+                          <h5 class="card-header bg-Dorange text-white">活動地點</h5>
+                          <div class="card-body">
+                            <p class="card-text text-main fs-4 mb-2">
+                              林園居農場：
+                            </p>
+                            <p class="card-text text-main">
+                              桃園市大園區溪海里聖德北路1370巷56號
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-6 col-md-3">
+                        <div class="card h-100">
+                          <h5 class="card-header bg-Dorange text-white">活動費用</h5>
+                          <div class="card-body">
+                           <p class="card-text text-main">
+                              $490/人</br>5人或10人成1窯，成窯人數若有差異。</br>葷食部分需補或退差價65元/人
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-6 col-md-3">
+                        <div class="card h-100">
+                          <h5 class="card-header bg-Dorange text-white">體驗時間</h5>
+                          <div class="card-body">
+                            <p class="card-text text-main">
+                              4小時
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-6 col-md-3">
+                        <div class="card h-100">
+                          <h5 class="card-header bg-Dorange text-white">體案內容</h5>
+                          <div class="card-body">
+                           <p class="card-text text-main">
+                              田野控窯趣-疊土窯、團隊共識體驗
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-12">
+                        <div class="card">
+                          <h5 class="card-header bg-Dorange text-white">提供材料</h5>
+                          <div class="card-body">
+                            <p class="card-text text-main">
+                              【5人份/窯】 台灣鯛魚x1和實際付費人數(每人地瓜x1/玉米x1/雞蛋x1/甜湯x1)</br>
+                              【10人份/窯】 雞x1和實際付費人數(每人地瓜x1/玉米x1/雞蛋x1/甜湯x1)</br></br>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 04 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                    半日遊 - 我是地瓜小農夫
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseFour" class="accordion-collapse text-white collapse" aria-labelledby="panelsStayOpen-headingFour">
+                  <div class="accordion-body">
+                    <p class="fs-5">
+                      你知道地瓜是怎麼種的嗎…</br>
+                      冬天來了~最適合吃著熱騰騰自己烤的烤地瓜拉!!</br>
+                      有吃過九份的地瓜圓，那有吃過自己做的地瓜圓嗎？</br>
+                      讓我們戴上斗笠，下田採地瓜去~快來體驗看看吧！！
+                      </br></br>
+                      挖地瓜-農事體驗活動的挖寶樂~~
+                      </br></br>
+                      現場有農夫市集及豐富的農村美食等你來品嚐!
+                    </p>
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                      <div class="col-6">
+                        <div class="card h-100">
+                          <h5 class="card-header bg-Dorange text-white">挖地瓜趣/地瓜圓DIY</h5>
+                          <div class="card-body">
+                            <p class="card-text text-main">
+                              園區導覽活動/來去田裡挖地瓜/動手DIY地瓜圓</br>
+                              可以帶1斤地瓜還有約150G地瓜圓 帶！回！家！喔～</br></br>
+                            </p>
+                            <p class="card-text text-main fw-bold mb-0">活動日期：</p>
+                            <p class="card-text text-main">111年12月10日星期六</p>
+                            <p class="card-text text-main fw-bold mb-0">活動場次：</p>
+                            <p class="card-text text-main">上午場10:00-12:00 / 下午場14:00-16:00</p>
+                            <p class="card-text text-main fw-bold mb-0">活動費用：</p>
+                            <p class="card-text text-main">$300/人（3歲以下免費）</p>
+                            <p class="card-text text-main fw-bold mb-0">活動體驗時間：</p>
+                            <p class="card-text text-main">2小時</p>
+                            
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-6">
+                        <div class="card h-100">
+                          <h5 class="card-header bg-Dorange text-white">挖地瓜趣/熱呼呼烤地瓜</h5>
+                          <div class="card-body">
+                            <p class="card-text text-main">
+                              園園區導覽活動/來去田裡挖地瓜/烤地瓜體驗</br>
+                              可以帶1斤地瓜回家呦！！
+                              </br></br>
+                            </p>
+                            <p class="card-text text-main fw-bold mb-0">活動日期：</p>
+                            <p class="card-text text-main">111年12月24日星期六 / 111年12月31日星期六</p>
+                            <p class="card-text text-main fw-bold mb-0">活動場次：</p>
+                            <p class="card-text text-main">上午場10:00-12:00 / 下午場14:00-16:00</p>
+                            <p class="card-text text-main fw-bold mb-0">活動費用：</p>
+                            <p class="card-text text-main">$300/人（3歲以下免費）</p>
+                            <p class="card-text text-main fw-bold mb-0">活動體驗時間：</p>
+                            <p class="card-text text-main">2小時</p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-12">
+                        <div class="card">
+                          <h5 class="card-header bg-secondary text-white">注意事項</h5>
+                          <div class="card-body">
+                            <p class="card-text text-main">
+                              ！！〃凡報名以上活動，皆贈送〃！！</br>
+                              《與羊咩咩同樂》《Poli遊園車騎到飽》</br>
+                               加購活動：優惠價150元/人(請預約時預約告知參加人數)</br>
+                              1.彩繪吊飾 / 2.彩繪斗笠 / 3.果凍蠟燭 / 4.地瓜圓DIY
+                              </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 一日遊 -->
+            <div class="col-12 mt-5"><p class="flower-name before-yellow">一日遊</p></div>
+            <div class="col-12"><p class="h5 text-white">
+              看過來！看過來！假日不知道去哪裡，就來大園溪海一級棒農場吧！</br>
+              一級棒農場種植多種蔬果為名，有機、健康、無毒的樂活農場！</br>
+              現在正是一級棒農場 玉米/蘿蔔/花生/洛神花 盛產的季節呀～</br>
+              各種超值活動供您選擇，名額有限，快來預約報名吧！
+            </div>
+            <div class="accordion accordion-flush mt-5" id="accordionPanelsStayOpenExample">
+              <!-- 05 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingFive">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseFive">
+                    一日遊 - 嘿!鬥陣來一級棒!!
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseFive" class="accordion-collapse text-white collapse" aria-labelledby="panelsStayOpen-headingFive">
+                  <div class="accordion-body">
+                    <p class="fs-5">
+                      【活動地點】一級棒農場 : 桃園市大園區溪海里16鄰聖德北路651巷23弄15號</br>
+                      【預約方式】</br>
+                      歡迎私訊粉絲專頁</br>
+                      預約專線0955-100-951</br>
+                      官方Line帳號：@688fvtlq
+                    </br>
+                    </p>
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                      <div class="col">
+                        <div class="card h-100">
+                          <h5 class="card-header bg-Dorange text-white">活動一</h5>
+                          <div class="card-body">
+                            <p class="card-text text-main fw-bold mb-0">活動費用：</p>
+                            <p class="card-text text-main">$350元/人</p>
+                            <p class="card-text text-main fw-bold mb-0">活動體驗時間：</p>
+                            <p class="card-text text-main">2小時</p>
+                            <p class="card-text text-main fw-bold mb-0">活動內容：</p>
+                            <p class="card-text text-main">
+                              採摘洛神花</br>
+                              </br>DIY洛神花蜜餞
+                              </br>採蔬果樂
+                              </br>園區導覽
+                              </br>羊羊互動體驗
+                              </br>撿雞蛋體驗
+                              </br>當季點心享用
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col">
+                        <div class="card h-100">
+                          <h5 class="card-header bg-Dorange text-white">活動一</h5>
+                          <div class="card-body">
+                            <p class="card-text text-main fw-bold mb-0">活動費用：</p>
+                            <p class="card-text text-main">$250元/人</p>
+                            <p class="card-text text-main fw-bold mb-0">活動體驗時間：</p>
+                            <p class="card-text text-main">2小時</p>
+                            <p class="card-text text-main fw-bold mb-0">活動內容：</p>
+                            <p class="card-text text-main">
+                              採摘花生</br>
+                              </br>採蔬果樂
+                              </br>園區導覽
+                              </br>羊羊互動體驗
+                              </br>撿雞蛋體驗
+                              </br>當季點心享用
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col">
+                        <div class="card h-100">
+                          <h5 class="card-header bg-Dorange text-white">控窯方案</h5>
+                          <div class="card-body">
+                            <p class="card-text text-main fw-bold mb-0">活動費用：</p>
+                            <p class="card-text text-main">$4900元(10人成團)</p>
+                            <p class="card-text text-main fw-bold mb-0">活動內容：</p>
+                            <p class="card-text text-main">
+                              </br>磚窯控窯
+                              </br>備當季食材，無需準備
+                              </br>食農教育控窯教學
+                            </p>
+                            <p class="card-text text-main">
+                            散客可單租一個窯1000元，可單買食材，單點醃製雞700元，附教學也提供客製化遊程！！歡迎來電洽詢～
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="mt-5">
+      <div class="container">
+          <div class="row py-4">
+            <div class="col-6 pb-3 pb-md-0">
+              <span class="fs-5 fw-bold">指導單位：</span>
+              <span class="fs-5">桃園市政府、桃園市議會</span>
+            </div>
+            <div class="col-6 pb-3 pb-md-0">
+              <span class="fs-5 fw-bold">主辦單位：</span>
+              <span class="fs-5">桃園市政府觀光旅遊局</span>
+            </div>
+            <div class="col-12 mt-3">
+              <div class="row">
+                <div class="col"><span class="fs-5 fw-bold">協辦單位：</span></div>
+                <div class="col-atuo">
+                  <span class="fs-5">
+                    桃園市政府各局處 / 
+                    桃園市大園區公所 / 
+                    桃園市中壢區公所 / 
+                    桃園市溪海休閒農業發展協會 / 
+                    國立陽明交通大學 / 
+                    陽程科技股份有限公司 / 
+                    慈濟月眉環保回收站 / 
+                    功學社單車股份有限公司
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
+    crossorigin="anonymous"></script>
+  </body>
+</html>
+
