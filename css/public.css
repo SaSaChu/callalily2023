@@ -3028,6 +3028,8 @@ button { outline: 0; border-width: 0; }
 
 .bg-main { background-color: #252A52; }
 
+.text-note { background-color: #b02318; color: white; text-align: center !important; }
+
 .text-main { color: #252A52; }
 
 .text-green { color: #5cb431; }
