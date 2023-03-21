@@ -3118,7 +3118,7 @@ button { outline: 0; border-width: 0; }
 .custom-table-width2 thead th:last-child, .custom-table-width2 tbody td:last-child { width: 30%; }
 
 .custom-table-width3 { overflow-x: auto; margin-right: 15px; margin-left: 15px; padding-right: 0; padding-left: 0; }
-.custom-table-width3 .table { table-layout: fixed; min-width: ˙750px; }
+.custom-table-width3 .table { table-layout: fixed; min-width: 750px; }
 .custom-table-width3 thead th:first-child, .custom-table-width3 tbody td:first-child { width: 10em; }
 .custom-table-width3 thead th:nth-child(10), .custom-table-width3 tbody td:nth-child(10) { width: 25em; }
 .custom-table-width3 thead th:last-child, .custom-table-width3 tbody td:last-child { width: 60%; }
